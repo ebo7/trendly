@@ -6,12 +6,12 @@ npm start
 
 from both client and server directory
 
-## Screenshots:
+## Screenshots of some pages:
 
-over 6 weeks
+
 <img src="./4.jpg">
 
-select pages
+
 <img src="./1.png" >
 
 <img src="./2.png" >
