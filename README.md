@@ -10,7 +10,8 @@ from both client and server directory
 
 over 6 weeks
 <img src="./4.jpg">
-some pages
+
+select pages
 <img src="./1.png" >
 
 <img src="./2.png" >
