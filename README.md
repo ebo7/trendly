@@ -1,5 +1,5 @@
 # trendly
-Trendly, a web app for tracking your daily data (Original repo was part of a private organization and had to upload)
+A web app for tracking your daily data.
 
 concurrently run from both client and server directory: 
 
