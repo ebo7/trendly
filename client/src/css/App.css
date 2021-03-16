@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw; }
+  .App input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #ada9a9 inset;
+    -box-shadow: 0 0 0 30px #ada9a9 inset; }
+
+.link:link {
+  text-decoration: white; }
+
+.link:hover {
+  cursor: pointer;
+  color: gray; }
+
+.link:visited {
+  color: white; }
+
+.link:active {
+  color: red; }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white; }
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0)); }
+
+img {
+  border-radius: 0%; }
+
+.divider {
+  width: 20px;
+  height: auto;
+  display: inline-block; }

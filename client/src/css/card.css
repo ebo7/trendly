@@ -1,0 +1,67 @@
+body {
+  background: "#17141d;";
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  --distance: -280px; }
+
+.cards {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  text-align: center; }
+
+.card {
+  background: #17141d;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 10px 2px 4px 4px;
+  transition: 0.2s; }
+  .card:not(:first-child) {
+    margin-right: var(--distance); }
+
+.card:hover,
+.card:focus-within {
+  transform: translateY(-0.5rem); }
+
+.card:hover ~ .card,
+.card:focus-within c .card {
+  transform: translateX(calc(var(--distance) * 1)); }
+
+.cardsReversed {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: center; }
+
+.cardReversed {
+  background: #17141d;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: -10px 2px 4px 4px rgba(0, 0, 0, 0.75);
+  transition: 0.2s; }
+  .cardReversed:not(:first-child) {
+    margin-left: var(--distance); }
+
+.cardReversed:hover,
+.cardReversed:focus-within {
+  transform: translateY(-0.5rem); }
+
+.cardReversed:hover ~ .cardReversed,
+.cardReversed:focus-within c .cardReversed {
+  transform: translateX(calc(var(--distance) * -1)); }
+
+a {
+  font-family: "Arial";
+  color: white;
+  text-decoration: none; }
+
+p {
+  font-family: "Arial";
+  color: white; }
+
+img {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 5%;
+  width: 300px;
+  height: auto; }

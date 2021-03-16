@@ -1,0 +1,38 @@
+.media {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.media img {
+  width: 100%;
+  height: auto;
+  border-radius: 0%;
+}
+
+.layer {
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 100%;
+  background: #303f9f;
+  /* background: #00e676; */
+
+  color: #151e3f;
+  transition: all 0.25s ease;
+}
+.layer p {
+  color: #fff;
+}
+.layer ul {
+  /* list-style-type: none;  */
+}
+.media:hover .layer {
+  opacity: 0.8;
+  width: 100%;
+  transition: all 0.1s ease;
+}

@@ -1,0 +1,19 @@
+﻿.smart-scroll {
+  position: fixed;
+  top: 0;
+  z-index: 1020;
+  width: 100%;
+  transition: all 0.3s ease-out;
+
+  /* background-color: rgba(0, 0, 0, 0.9); */
+}
+.smart-scroll.scrolling {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.smart-scroll.scrolling.up {
+  background-color: rgba(0, 0, 0, 0.9);
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  transition: all 0.3s ease-out;
+}
