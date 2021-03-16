@@ -9,8 +9,8 @@ from both client and server directory
 Some screenshots:
 
 
-<img src="./4.jpg" width="500">
+<img src="./4.jpg">
 
-<img src="./1.png" width="500">
+<img src="./1.png" >
 
-<img src="./2.png" width="500">
+<img src="./2.png" >
