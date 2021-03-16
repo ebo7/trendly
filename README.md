@@ -1,6 +1,6 @@
 # trendly
-Trendly, a web app for comprehensive tracking your daily data (Original repo was part of a private organization and had to upload)
-For demo, please concurrently run: 
+Trendly, a web app for tracking your daily data (Original repo was part of a private organization and had to upload)
+For comprehensive demo, please concurrently run: 
 
 npm start 
 
